@@ -1,6 +1,7 @@
 # mini-agent
 
-A beginner-friendly coding agent that runs locally using Ollama. No cloud APIs, no API keys — just a small local LLM that can read, write, and execute code in a sandboxed workspace.
+A beginner-friendly coding agent that runs locally using Ollama. No cloud APIs, no API keys just a small local LLM that can read, write, and execute code in a sandboxed workspace.
+
 Note: This is a **prototype**, not a production-level agent. It's meant to teach you how agents work from the inside out: the patterns, the loop, the tool-calling flow. Use it to learn, break it, rebuild it. Don't ship it to production.
 
 ## Who is this for?
