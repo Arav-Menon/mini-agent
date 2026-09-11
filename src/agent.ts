@@ -37,6 +37,8 @@ export class Agent {
                 tools
             );
 
+            console.log(response)
+
             /*
              * Add assistant response
              * to conversation context.
@@ -61,9 +63,7 @@ export class Agent {
             /*
              * Agent requested tools.
              */
-            for (
-                const toolCall of response.tool_calls
-            ) {
+            for (const toolCall of response.tool_calls) {
 
                 const toolName =
                     toolCall.function.name;
