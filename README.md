@@ -23,9 +23,10 @@ ollama pull qwen3:4b
 ## Quick Start
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Arav-Menon/mini-agent
 cd mini-agent
 pnpm install
+ollama run qwen3:4b
 pnpm dev
 ```
 
