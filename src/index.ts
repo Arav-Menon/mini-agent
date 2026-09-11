@@ -8,9 +8,7 @@ const rl = createInterface({
     output: stdout
 });
 
-const agent = new Agent(
-    "./workspace"
-);
+const agent = new Agent("./workspace");
 
 console.log("🤖 Mini Coding Agent");
 console.log("Type 'exit' to quit.\n");
