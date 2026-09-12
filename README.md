@@ -223,3 +223,5 @@ That's it. The LLM will now see your tool in its available tools list and can ca
 - **HTTP** — Axios for Ollama API calls
 - **Memory** — Plain JSON file (`memory.json`)
 - **Modules** — ESM (`"type": "module"`)
+
+
